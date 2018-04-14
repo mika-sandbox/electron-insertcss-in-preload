@@ -12,7 +12,9 @@
 ## 動作条件
 
 * Electron の次のリリースバージョンを引っ張ってくる (`97fb15a` 以降)
-  1. `node_modules` 下で、 `git clone git@github.com:electron/electron.git`
+  1. `mkdir node_modules`
+  1. `cd node_modules`
+  1. `git clone git@github.com:electron/electron.git`
   1. `cd electron`
   1. `python script\bootstrap.py -v`
   1. `python script\build.py`
